@@ -10,5 +10,6 @@ $decodeData = json_decode($ambilData, true);
     <td><?=$data['alamat'];?></td>
     <td><?=$data['jurusan'];?></td>
     <td><?=$data['tahun'];?></td>
+    <td><?=$data['gender'];?></td>
 </tr>
 <?php endforeach; ?>

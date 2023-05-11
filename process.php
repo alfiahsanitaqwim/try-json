@@ -10,7 +10,8 @@ $data = array(
     'email' => $_POST['email'],
     'alamat' => $_POST['alamat'],
     'jurusan' => $_POST['jurusan'],
-    'tahun' => $_POST['tahun']
+    'tahun' => $_POST['tahun'],
+    'gender' => $_POST['gender']
 );
     
 array_push($decodeData, $data);

@@ -60,6 +60,19 @@
                             </select>
                             <label for="fsTahun">Tahun Daftar</label>
                         </div>
+                        <div class="form-floating mt-2">
+                            <div>
+                                <label class="ms-2" for="">Jenis Kelamin</label>
+                            </div>
+                            <div class="form-check mt-2 ms-2">
+                                <input type="radio" id="lk" name="gender" value="Laki-laki">
+                                <label for="lk">Laki-laki</label><br>
+                            </div>
+                            <div class="form-check ms-2">
+                                <input type="radio" id="pr" name="gender" value="Perempuan">
+                                <label for="pr">Perempuan</label>
+                            </div>
+                        </div>
 
                         <input type="submit" class="btn btn-success mt-3 col-12" value="Daftar" name="submit">
                         </form>
@@ -70,13 +83,14 @@
                     </div>
                             <table class="table table-hover table striped">
                                 <thead>
-                                  <tr>
-                                    <th>Nama</th>
-                                    <th>Email</th>
-                                    <th>Alamat</th>
-                                    <th>Program Pelatihan</th>
-                                    <th>Tahun Pendaftaran</th>
-                                </tr>  
+                                    <tr>
+                                        <th>Nama</th>
+                                        <th>Email</th>
+                                        <th>Alamat</th>
+                                        <th>Program Pelatihan</th>
+                                        <th>Tahun Pendaftaran</th>
+                                        <th>Jenis Kelamin</th>
+                                    </tr>  
                                 </thead>
                                 <tbody>
 
@@ -127,12 +141,15 @@
                 var alamat = $("#floatingTextarea").val();
                 var jurusan = $("#floatingSelect").val();
                 var tahun = $("#fsTahun").val();
+                var gender = $("input[name='gender']:checked").val();
+
                 var formData = {
                     nama: nama,
                     email: email,
                     alamat: alamat,
                     jurusan: jurusan,
-                    tahun: tahun
+                    tahun: tahun,
+                    gender: gender
                 }
                 $.ajax({
                     type:"POST",

@@ -2,43 +2,57 @@
     {
         "nama": "asa",
         "email": "alfiahsanitaqwim06@gmail.com",
-        "alamat": "sfas",
+        "alamat": "sad",
         "jurusan": "jwd",
-        "tahun": "2003"
-    },
-    {
-        "nama": "asa",
-        "email": "alfiahsanitaqwim06@gmail.com",
-        "alamat": "sby",
-        "jurusan": "cc",
-        "tahun": "2018"
-    },
-    {
-        "nama": "asa",
-        "email": "alfiahsanitaqwim06@gmail.com",
-        "alamat": "das",
-        "jurusan": "jwd",
-        "tahun": "2003"
-    },
-    {
-        "nama": "asa",
-        "email": "alfiahsanitaqwim06@gmail.com",
-        "alamat": "gh",
-        "jurusan": "jwd",
-        "tahun": "2002"
+        "tahun": "2001",
+        "gender": "on"
     },
     {
         "nama": "asa",
         "email": "alfiahsanitaqwim06@gmail.com",
         "alamat": "sad",
         "jurusan": "jwd",
-        "tahun": "2001"
+        "tahun": "2001",
+        "gender": null
     },
     {
-        "nama": "Cotton bud",
+        "nama": "awa",
         "email": "alfiahsanitaqwim06@gmail.com",
-        "alamat": "gjh",
+        "alamat": "ZSCX",
         "jurusan": "jwd",
-        "tahun": "2023"
+        "tahun": "2001",
+        "gender": null
+    },
+    {
+        "nama": "asa",
+        "email": "alfiahsanitaqwim06@gmail.com",
+        "alamat": "sads",
+        "jurusan": "jwd",
+        "tahun": "2001",
+        "gender": null
+    },
+    {
+        "nama": "awa",
+        "email": "alfiahsanitaqwim06@gmail.com",
+        "alamat": "ASa",
+        "jurusan": "dm",
+        "tahun": "2007",
+        "gender": "Laki-laki"
+    },
+    {
+        "nama": "awa",
+        "email": "alfiahsanitaqwim06@gmail.com",
+        "alamat": "hng",
+        "jurusan": "cc",
+        "tahun": "2010",
+        "gender": "Perempuan"
+    },
+    {
+        "nama": "asa",
+        "email": "alfiahsanitaqwim06@gmail.com",
+        "alamat": "asdsa",
+        "jurusan": "cc",
+        "tahun": "2005",
+        "gender": "Laki-laki"
     }
 ]
