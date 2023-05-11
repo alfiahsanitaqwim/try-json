@@ -147,6 +147,7 @@
                         $("tbody").append(result);
                         // $("form")[0].reset();
                         $("form").trigger('reset');
+                        getData();
                     }
                 })
                 // event.preventDefault();
